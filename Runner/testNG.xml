@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MobileFirmCare" parallel="none">
+
+	<test name="Verify the timings in the Horizontal scroll from NOw to 23 Hrs">
+		<classes>
+			<class name="TestCases.Scenario1" />
+		</classes>
+	</test>
+
+	<test name="Government Schemes">
+		<classes>
+			<class name="TestCases.Scenario2" />
+		</classes>
+	</test>
+
+
+</suite>
